@@ -55,7 +55,39 @@ class _HomePageState extends State<HomePage> {
               backgroundColor: Colors.white,
             ),
 
-      body: telas[_indiceAtual],
+
+
+
+
+
+
+
+
+
+
+
+
+      body: Container(
+        padding: EdgeInsets.all(15),
+        child: telas[_indiceAtual],
+      ),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _indiceAtual,
         onTap: (indice ){
