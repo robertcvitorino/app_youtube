@@ -22,7 +22,7 @@ class Api{
     
     if(response.statusCode==200){
 
-
+      print('data'+ response.statusCode.toString());
       Map<String, dynamic> dadosJson =json.decode(response.body);
 
 
